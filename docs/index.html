@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pwa-starter — Téléchargement APK</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,system-ui,sans-serif;background:#0b1120;color:#e2e8f0;display:flex;align-items:center;justify-content:center;min-height:100dvh;padding:24px}
+  .wrapper{max-width:900px;width:100%;text-align:center}
+  .page-title{font-size:20px;font-weight:800;margin-bottom:4px;color:#f1f5f9}
+  .page-sub{color:#64748b;font-size:13px;margin-bottom:28px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:20px;justify-items:center}
+  .card{background:#1e293b;border:1px solid #334155;border-radius:16px;padding:32px 28px;width:100%;text-align:center;position:relative}
+  .badge{position:absolute;top:12px;right:12px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;padding:3px 10px;border-radius:999px}
+  .icon{font-size:40px;margin-bottom:8px}
+  h1{font-size:20px;font-weight:800;margin-bottom:2px}
+  .sub{color:#94a3b8;font-size:13px;margin-bottom:20px}
+  .infobox{background:#0f172a;border-radius:10px;padding:14px;margin-bottom:16px;text-align:left;font-size:13px}
+  .infobox div{display:flex;justify-content:space-between;padding:3px 0}
+  .infobox .label{color:#64748b}
+  .infobox .value{color:#e2e8f0;font-family:monospace;font-size:12px;word-break:break-all}
+  .hash{font-size:10px;color:#475569;word-break:break-all;margin-bottom:16px;padding-top:10px;border-top:1px solid #1e293b;font-family:monospace;line-height:1.5}
+  .btn{display:inline-block;background:#3b82f6;color:#fff;text-decoration:none;padding:12px 28px;border-radius:10px;font-weight:700;font-size:15px;transition:background .15s}
+  .btn:hover{background:#2563eb}
+</style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="page-title">pwa-starter</div>
+  <div class="page-sub">APK Android — v1.0.0</div>
+  <div class="grid">
+    <div class="card">
+      <span class="badge" style="background:#451a03;color:#f59e0b">Debug</span>
+      <div class="icon">📦</div>
+      <h1>pwa-starter</h1>
+      <p class="sub">v1.0.0 — APK Android</p>
+      <div class="infobox">
+        <div><span class="label">Fichier</span><span class="value">pwa-starter.apk</span></div>
+        <div><span class="label">Taille</span><span class="value">24M</span></div>
+      </div>
+      <div class="hash">SHA256: d6e0d161c105d7058449c25e01ac645681af8144e886e6a12f4b6026aac0daef</div>
+      <a class="btn" href="apk/pwa-starter.apk" download>Télécharger</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>

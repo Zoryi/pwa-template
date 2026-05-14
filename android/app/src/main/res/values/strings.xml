@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PWATemplate</string>
+    <string name="title_activity_main">PWATemplate</string>
+    <string name="package_name">com.pwatemplate.app</string>
+    <string name="custom_url_scheme">com.pwatemplate.app</string>
+</resources>
