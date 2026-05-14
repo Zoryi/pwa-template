@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { usePersistState } from '../../hooks/usePersistState'
 import { Link } from 'react-router-dom'
 import { ThemeToggle } from '../../components/ThemeToggle/ThemeToggle'
 
@@ -100,7 +100,7 @@ const s = {
 }
 
 export function Home() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = usePersistState('pwa-starter-counter', 0)
 
   return (
     <div style={s.container}>
